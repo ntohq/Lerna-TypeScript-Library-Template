@@ -1,0 +1,27 @@
+{
+  "name": "library",
+  "version": "0.0.0",
+  "description": "<Add a description about your library>",
+  "author": "Wesley Ford <wes@wesdev.pro>",
+  "homepage": "https://github.com/ntohq/Lerna-TypeScript-Library-Template#readme",
+  "license": "MIT",
+  "main": "lib/library.js",
+  "directories": {
+    "src": "src",
+    "types": "types",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntohq/Lerna-TypeScript-Library-Template.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/library.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/ntohq/Lerna-TypeScript-Library-Template/issues"
+  }
+}
